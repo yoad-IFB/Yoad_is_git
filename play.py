@@ -7,12 +7,12 @@ def multi():
 
 
 def print_file():
-    with open('/Users/yoadhordan/PycharmProjects/Yoad_is_git/tryenv/cool.txt') as file:
+    with open('cool.txt') as file:
         print(file.read())
 
 
 def more_file():
-    with open('/Users/yoadhordan/PycharmProjects/Yoad_is_git/tryenv/cool.txt') as file:
+    with open('cool.txt') as file:
         lines = file.readlines()
         print(int(lines[0]) - int(lines[1]) + int(lines[2]))
 
