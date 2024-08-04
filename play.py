@@ -8,7 +8,7 @@ def multi(a, b):
 def main():
     print("hello world2")
     with open('RandomThing.txt') as file:
-        print(file.read())
+        print(file.readlines()[1])
         print("-----")
         # print(file.readline())
     print(multi(5, 6))
