@@ -10,6 +10,7 @@ def main():
         print(file.read())
         print("-----")
         # print(file.readline())
+    print(multi(5, 6))
 
 
 if __name__ == '__main__':
