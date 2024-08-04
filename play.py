@@ -7,8 +7,14 @@ def multi():
 
 
 def print_file():
-    with open('RandomThing.txt') as file:
+    with open('/Users/yoadhordan/PycharmProjects/Yoad_is_git/tryenv/cool.txt') as file:
         print(file.read())
+
+
+def more_file():
+    with open('/Users/yoadhordan/PycharmProjects/Yoad_is_git/tryenv/cool.txt') as file:
+        lines = file.readlines()
+        print(int(lines[0]) - int(lines[1]) + int(lines[2]))
 
 
 def main():
@@ -17,6 +23,7 @@ def main():
     print("-----")
     # print(file.readline())
     print(multi())
+    more_file()
 
 
 if __name__ == '__main__':
